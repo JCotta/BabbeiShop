@@ -1401,7 +1401,7 @@
           "8860de25-b7cf-4ebd-af66-4d9672a6a8e8": {
             "type": "message",
             "settings": {
-              "message_text": "Teste",
+              "message_text": "Alguns produtos estão com frete grátis para todo o Brasil!",
               "message_link": "shopify:\/\/collections\/lancamentos",
               "text_align": "topbar-center",
               "col": "12",
