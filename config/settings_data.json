@@ -1403,9 +1403,9 @@
             "settings": {
               "message_text": "Alguns produtos estão com frete grátis para todo o Brasil!",
               "message_link": "shopify:\/\/collections\/lancamentos",
-              "text_align": "topbar-center",
+              "text_align": "topbar-right",
               "col": "12",
-              "color_link": "#222222"
+              "color_link": "#ffffff"
             }
           }
         },
@@ -2075,7 +2075,7 @@
           "enable_icon_menu": true,
           "shop_vertical": true,
           "title_vertical": "Categorias",
-          "bg_vertical": "{{ shop.brand.colors.primary[1].background }}",
+          "bg_vertical": "#ffffff",
           "cl_vertical": "#25a799",
           "text_right_menu": "Gaste R$ 295 a mais e ganhe frete grátis!"
         }
@@ -5039,121 +5039,6 @@
           "pd_mb": ""
         }
       },
-      "1636339807c67b6586": {
-        "type": "brand-list",
-        "blocks": {
-          "1636339807c67b6586-0": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-1": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-2": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-3": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-4": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-5": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-6": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-7": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "1636339807c67b6586-8": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          }
-        },
-        "block_order": [
-          "1636339807c67b6586-0",
-          "1636339807c67b6586-1",
-          "1636339807c67b6586-2",
-          "1636339807c67b6586-3",
-          "1636339807c67b6586-4",
-          "1636339807c67b6586-5",
-          "1636339807c67b6586-6",
-          "1636339807c67b6586-7",
-          "1636339807c67b6586-8"
-        ],
-        "settings": {
-          "hidden": false,
-          "layout": "container",
-          "cl_bg": "#ffffff",
-          "show_border": true,
-          "cl_bg_border": "#ebebeb",
-          "mg": "",
-          "pd": "",
-          "mg_mb": "",
-          "pd_mb": "",
-          "title": "",
-          "sub_title": "",
-          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-          "use-slider": true,
-          "slides-To-Scroll": 1,
-          "visible": 8,
-          "widescreen": 7,
-          "desktop": 6,
-          "laptop": 5,
-          "notebook": 4,
-          "tablet": 3,
-          "landscape": 2,
-          "portrait": 2,
-          "mobile": 2,
-          "rows": 1,
-          "autoplay": true,
-          "speed": "300",
-          "autoplay-Speed": "3000",
-          "arrows": true,
-          "fade": false,
-          "center-Mode": false,
-          "adaptive-Height": false,
-          "dots": false,
-          "infinite": false,
-          "padding": 15
-        }
-      },
       "footer-top": {
         "type": "footer-top",
         "blocks": {
@@ -5283,8 +5168,7 @@
       "1636706538b43eed42",
       "1636950129248c4f5e",
       "1636172590813ee09e",
-      "163618766874106123",
-      "1636339807c67b6586"
+      "163618766874106123"
     ]
   },
   "presets": {
