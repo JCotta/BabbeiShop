@@ -3194,10 +3194,10 @@
           "814491cc-ef4f-4546-8cb0-432147110688": {
             "type": "subhd",
             "settings": {
-              "title": "Novas chegadas",
+              "title": "brinquedos Educativos",
               "text_animate": "fadeInDown",
-              "color": "#222222",
-              "bg_text": "#fdc801",
+              "color": "#f5f5f5",
+              "bg_text": "#25a799",
               "pd": "6px 13px 6px 13px",
               "br_button": "2px 2px",
               "fw_text": 500,
@@ -3299,8 +3299,8 @@
               "cl_txt": "#ffffff",
               "cl_txt_hover": "#25a799",
               "cl_bg": "#25a799",
-              "cl_bg_hover": "#0a2748",
-              "border_cl": "#ffffff",
+              "cl_bg_hover": "#f5f5f5",
+              "border_cl": "#25a799",
               "border_cl_hv": "#fcbe00",
               "text_animate": "zoomIn",
               "fs_text": 13,
@@ -4684,7 +4684,7 @@
             "type": "subhd",
             "settings": {
               "title": "produtos em destaque",
-              "color": "#ffc000",
+              "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 16,
               "lh_text": 16,
@@ -4747,7 +4747,7 @@
             "type": "subhd",
             "settings": {
               "title": "Produtos mais vendidos",
-              "color": "#ffc000",
+              "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 16,
               "lh_text": 16,
