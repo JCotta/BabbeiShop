@@ -1040,7 +1040,7 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "grid_select": "4",
+          "grid_select": "2.4",
           "mg_bottom": 60,
           "mobile_mg_bottom": 40
         }
@@ -1055,16 +1055,6 @@
               "default_state": "open",
               "show_counter": false,
               "menu": "cole-es"
-            }
-          },
-          "be73363c-c6f4-4c02-a269-887b403057a6": {
-            "type": "filters",
-            "settings": {
-              "title": "Filtrar por marcas",
-              "default_state": "open",
-              "type": "tags",
-              "items": "Carmentor|Carvoodoo|Georgine|Matthew Christopher|Chrome Hearts|Clements Ribeiro|Dominique Aurientis",
-              "multiple_filter_value": false
             }
           },
           "collection-sidebar-1": {
@@ -1090,7 +1080,6 @@
         },
         "block_order": [
           "f06ffe84-907f-4bb2-8764-22ca9d5584e4",
-          "be73363c-c6f4-4c02-a269-887b403057a6",
           "collection-sidebar-1",
           "41295cd3-c11a-42f8-bd4b-ae8ff7b9af6e"
         ],
@@ -1980,7 +1969,7 @@
             "type": "mega",
             "settings": {
               "title": "Categorias",
-              "url": "",
+              "url": "shopify:\/\/collections",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
