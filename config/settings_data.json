@@ -1403,7 +1403,7 @@
             "settings": {
               "message_text": "Alguns produtos estão com frete grátis para todo o Brasil!",
               "message_link": "shopify:\/\/collections\/lancamentos",
-              "text_align": "topbar-right",
+              "text_align": "topbar-center",
               "col": "12",
               "color_link": "#ffffff"
             }
