@@ -2111,7 +2111,8 @@
           "dfe60180-0a51-457d-9f6c-f64e7d16e945"
         ],
         "settings": {
-          "content": "<p><a href=\"#\" title=\"#\">Online Shopping <\/a> \/  <a href=\"#\" title=\"#\">Promotions<\/a>  \/  <a href=\"#\" title=\"#\">My Orders<\/a>  \/  <a href=\"#\" title=\"#\">Help<\/a>  \/  <a href=\"#\" title=\"#\">Customer<\/a> \/ <a href=\"#\" title=\"#\">Service<\/a>  \/  <a href=\"#\" title=\"#\">Support<\/a>  \/  <a href=\"#\" title=\"#\">Most Populars<\/a>  \/  <a href=\"#\" title=\"#\">New Arrivals<\/a>  \/  <a href=\"#\" title=\"#\">Special Products<\/a>  \/  <a href=\"#\" title=\"#\">Manufacturers<\/a><\/p><p><a href=\"#\" title=\"#\">Our Stores<\/a>  \/  <a href=\"#\" title=\"#\">Shipping  <\/a>\/  <a href=\"#\" title=\"#\">Payments  <\/a>\/  <a href=\"#\" title=\"#\">Checkout  <\/a>\/  <a href=\"#\" title=\"#\">Discount<\/a>  \/  <a href=\"#\" title=\"#\">Terms & Conditions<\/a>  \/  <a href=\"#\" title=\"#\">Policy Shipping<\/a>  \/  <a href=\"#\" title=\"#\">Returns<\/a>  \/  <a href=\"#\" title=\"#\">Refunds<\/a><\/p>",
+          "content": "",
+          "icon_payment": "shopify:\/\/shop_images\/em_promocao_480_x_480_px_325_x_40_px_1.png",
           "footer_copyright_text": "Copyright © <a href=\"\/\">Babbei Shop.<\/a> all rights reserved. Powered by <a href=\"\/\">Águia Digital.<\/a>",
           "bg": "#1f2024",
           "color_footer_title": "#ffffff",
@@ -5073,7 +5074,7 @@
           "4d9c7287-bbde-4c1a-902a-62f84247180a": {
             "type": "product",
             "settings": {
-              "product": "bellhop-portable-table-lamp-1",
+              "product": "copia-de-hampet-adoravel-hamster-falante",
               "show_description": true,
               "show_btn": true
             }
@@ -5081,7 +5082,7 @@
           "120214f4-6af0-4209-a3d4-3c4f6791e09f": {
             "type": "product",
             "settings": {
-              "product": "cotton-crewneck-sweater-1",
+              "product": "cuddlebuddy-rosa-brinquedos-de-pelucia-de-polvo",
               "show_description": false,
               "show_btn": false
             }
@@ -5089,7 +5090,7 @@
           "070cfd87-e4ea-4880-96d4-890f974607ea": {
             "type": "product",
             "settings": {
-              "product": "nikecourt-air-zoom-prestige-11",
+              "product": "glowball-bola-adesiva-antiestresse",
               "show_description": false,
               "show_btn": false
             }
@@ -5097,7 +5098,7 @@
           "e74f2866-ac65-480a-8589-beea084869e0": {
             "type": "product",
             "settings": {
-              "product": "glass-floor-vase-ls21-1",
+              "product": "spincute-brinquedo-giratorio-infantil",
               "show_description": false,
               "show_btn": false
             }
@@ -5105,7 +5106,7 @@
           "7131d2bd-acbf-436c-b126-e9437905034f": {
             "type": "product",
             "settings": {
-              "product": "lorem-ipsum-is-simply-dummy",
+              "product": "copia-de-aquaegg-egg-brinquedo-de-banho",
               "show_description": false,
               "show_btn": false
             }
