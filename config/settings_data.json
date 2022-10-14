@@ -4516,7 +4516,7 @@
           "66b8204e-873b-49e5-b20c-93423cea2d9b": {
             "type": "product",
             "settings": {
-              "product": "canvas-baby-eating-table-mat-infant-feeding-cover-for-high-chair-learn-to-eat-autonomously-graffiti-painting-mat",
+              "product": "aquaegg-egg-brinquedo-de-banho",
               "total": 85,
               "available": 26
             }
@@ -4524,7 +4524,7 @@
           "d15c976c-cf56-4649-805c-fce6133b8506": {
             "type": "product",
             "settings": {
-              "product": "babado-com-protecao-impermeavel-para-mesa-infantil-de-alimentacao",
+              "product": "talking-hamster-falante-mouse-pet-plush-toy-cute-talking-sound-record-educational-stuffed-doll-children-gifts-15cm",
               "total": 87,
               "available": 10
             }
@@ -4564,7 +4564,7 @@
           "28ec90ca-7d0b-4c84-aa30-df5cb4724d9a": {
             "type": "product",
             "settings": {
-              "product": "nikecourt-air-zoom-prestige-14",
+              "product": "baby-proud-8-pecas-kit-introducao-alimentar-de-silicone",
               "total": 100,
               "available": 15
             }
@@ -4572,7 +4572,7 @@
           "ffc8b686-8b15-48f6-a088-85e99f4e8f38": {
             "type": "product",
             "settings": {
-              "product": "nikecourt-air-zoom-prestige-14",
+              "product": "1pc-luminous-drawing-board-graffiti-doodle-drawing-tablet-magic-draw-board-with-light-fun-fluorescent-pen-educational-toy",
               "total": 100,
               "available": 15
             }
@@ -4580,7 +4580,7 @@
           "43f38922-45cf-4c41-a6ca-15a346d4390d": {
             "type": "product",
             "settings": {
-              "product": "nikecourt-air-zoom-prestige-12",
+              "product": "caranguejo-intocavel",
               "total": 100,
               "available": 15
             }
@@ -4588,7 +4588,7 @@
           "23cf19bd-4b7c-49c0-b0ff-a62aed54dbf6": {
             "type": "product",
             "settings": {
-              "product": "aalto-tealight-60x25-mm",
+              "product": "boosphere-pro-bola-voadoraboomerang",
               "total": 100,
               "available": 15
             }
@@ -4596,7 +4596,7 @@
           "036a7f33-ace3-4dfe-adbb-a8adcf217edc": {
             "type": "product",
             "settings": {
-              "product": "nikecourt-air-zoom-prestige-13",
+              "product": "cuddlebuddy-rosa-brinquedos-de-pelucia-de-polvo",
               "total": 100,
               "available": 15
             }
@@ -4825,13 +4825,6 @@
               "collection": "lancamentos"
             }
           },
-          "163609943117cec920-1": {
-            "type": "col",
-            "settings": {
-              "title": "Brinquedos Educativos",
-              "collection": "brinquedos-educativos"
-            }
-          },
           "163609943117cec920-2": {
             "type": "col",
             "settings": {
@@ -4839,18 +4832,25 @@
               "collection": "populares"
             }
           },
+          "163609943117cec920-1": {
+            "type": "col",
+            "settings": {
+              "title": "Conjuntinho",
+              "collection": "conjuntinho"
+            }
+          },
           "252fcb3e-6b55-4e8c-89a8-ea65e9645052": {
             "type": "col",
             "settings": {
-              "title": "Estimulando a Imaginação",
-              "collection": "estimulando-a-imaginacao"
+              "title": "Entretenimento",
+              "collection": "entretenimento"
             }
           }
         },
         "block_order": [
           "163609943117cec920-0",
-          "163609943117cec920-1",
           "163609943117cec920-2",
+          "163609943117cec920-1",
           "252fcb3e-6b55-4e8c-89a8-ea65e9645052"
         ],
         "settings": {
