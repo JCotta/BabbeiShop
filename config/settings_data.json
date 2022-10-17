@@ -3182,6 +3182,7 @@
             "settings": {
               "cl_bg": "#263c97",
               "image_sl": "shopify:\/\/shop_images\/Copia_de_em_promocao_3.png",
+              "image_sl_mobile": "shopify:\/\/shop_images\/em_promocao_480_x_480_px_3.png",
               "link_img": "",
               "open_link": "_blank",
               "caption_w": "2",
@@ -3324,6 +3325,7 @@
             "settings": {
               "cl_bg": "#263c97",
               "image_sl": "shopify:\/\/shop_images\/em_promocao_139f9cd6-26ee-4774-bc76-57e12f094aae.png",
+              "image_sl_mobile": "shopify:\/\/shop_images\/em_promocao_480_x_480_px_4.png",
               "link_img": "",
               "open_link": "_blank",
               "caption_w": "2",
@@ -3466,6 +3468,7 @@
             "settings": {
               "cl_bg": "#263c97",
               "image_sl": "shopify:\/\/shop_images\/Copia_de_em_promocao_2.png",
+              "image_sl_mobile": "shopify:\/\/shop_images\/em_promocao_480_x_480_px_5.png",
               "link_img": "",
               "open_link": "_blank",
               "caption_w": "2",
