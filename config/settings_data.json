@@ -3183,7 +3183,7 @@
               "cl_bg": "#263c97",
               "image_sl": "shopify:\/\/shop_images\/Copia_de_em_promocao_3.png",
               "image_sl_mobile": "shopify:\/\/shop_images\/em_promocao_480_x_480_px_3.png",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/brinquedos-educativos",
               "open_link": "_blank",
               "caption_w": "2",
               "h_position": "left",
@@ -3326,7 +3326,7 @@
               "cl_bg": "#263c97",
               "image_sl": "shopify:\/\/shop_images\/em_promocao_139f9cd6-26ee-4774-bc76-57e12f094aae.png",
               "image_sl_mobile": "shopify:\/\/shop_images\/em_promocao_480_x_480_px_4.png",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/brinquedos",
               "open_link": "_blank",
               "caption_w": "2",
               "h_position": "left",
@@ -3469,7 +3469,7 @@
               "cl_bg": "#263c97",
               "image_sl": "shopify:\/\/shop_images\/Copia_de_em_promocao_2.png",
               "image_sl_mobile": "shopify:\/\/shop_images\/em_promocao_480_x_480_px_5.png",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections",
               "open_link": "_blank",
               "caption_w": "2",
               "h_position": "left",
@@ -4291,7 +4291,7 @@
             "settings": {
               "icon": "icon-shipping",
               "title": "Entrega Grátis",
-              "text": "Para todos os pedidos acima de R$195,00"
+              "text": "Para todos os pedidos do Brasil!"
             }
           },
           "6b255205-5204-44a7-9386-e48fde8eb9df": {
@@ -4315,7 +4315,7 @@
             "settings": {
               "icon": "icon-friendly-services",
               "title": "Serviços amigáveis",
-              "text": "30 dias de garantia de satisfação"
+              "text": "7 dias de garantia de satisfação"
             }
           }
         },
@@ -4355,7 +4355,7 @@
               "image_sl": "shopify:\/\/shop_images\/Brinquedos_Educativos.png",
               "col": "4",
               "ipad_col": "4",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/brinquedos",
               "open_link": "_blank",
               "hidden_content": false,
               "h_position": "left",
@@ -4367,7 +4367,7 @@
           "b0a61c39-8cce-463e-b4e6-cdcbe8149437": {
             "type": "hd",
             "settings": {
-              "title": "Brinquedos <br> Montesorri",
+              "title": "Brinquedos <br>",
               "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 24,
@@ -4402,7 +4402,7 @@
               "image_sl": "shopify:\/\/shop_images\/Brinquedos_Educativos_2.png",
               "col": "4",
               "ipad_col": "4",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/acessorios-de-sono",
               "open_link": "_blank",
               "hidden_content": false,
               "h_position": "left",
@@ -4449,7 +4449,7 @@
               "image_sl": "shopify:\/\/shop_images\/Brinquedos_Educativos_3.png",
               "col": "4",
               "ipad_col": "4",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/brinquedos-educativos",
               "open_link": "_blank",
               "hidden_content": false,
               "h_position": "left",
@@ -4676,7 +4676,7 @@
               "image_sl": "shopify:\/\/shop_images\/2_de5bcfc4-bdc7-4106-8bb3-0de9b58f7255.png",
               "col": "6",
               "ipad_col": "6",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/acessorios-para-refeicao",
               "open_link": "_blank",
               "hidden_content": false,
               "h_position": "left",
@@ -4739,7 +4739,7 @@
               "image_sl": "shopify:\/\/shop_images\/3_7714b854-05f9-43ca-9ffe-6e3019e3b4f1.png",
               "col": "6",
               "ipad_col": "6",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/frontpage",
               "open_link": "_blank",
               "hidden_content": false,
               "h_position": "left",
@@ -4839,7 +4839,7 @@
           "163609943117cec920-1": {
             "type": "col",
             "settings": {
-              "title": "Conjuntinho",
+              "title": "Conjuntos",
               "collection": "conjuntinho"
             }
           },
@@ -4921,13 +4921,13 @@
             "type": "banner",
             "settings": {
               "image": "shopify:\/\/shop_images\/2_337c9cbd-d39f-4558-a1de-0a633f59e50e.png",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/populares",
               "hidden_content": false,
               "sub_title": "",
               "title": "Populares",
               "content": "Confira os mais populares da Babbei!",
               "b_title": "",
-              "btn_link": "",
+              "btn_link": "shopify:\/\/collections\/populares",
               "open_link": "_blank",
               "h_position": "center",
               "v_position": "top",
@@ -4945,7 +4945,7 @@
               "title": "Acessórios para a Refeição",
               "content": "",
               "b_title": "",
-              "btn_link": "shopify:\/\/collections\/acessorios-de-sono",
+              "btn_link": "shopify:\/\/collections\/acessorios-para-refeicao",
               "open_link": "_blank",
               "h_position": "left",
               "v_position": "top",
@@ -4957,7 +4957,7 @@
             "type": "banner",
             "settings": {
               "image": "shopify:\/\/shop_images\/9_3ae7f76f-ddbf-4dbc-8005-2076ad6c2de8.png",
-              "link_img": "",
+              "link_img": "shopify:\/\/collections\/lancamentos",
               "hidden_content": false,
               "sub_title": "lançamentos",
               "title": "Confira as Novidades <br> Produtos Inéditos",
