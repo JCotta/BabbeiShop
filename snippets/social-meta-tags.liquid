@@ -3,7 +3,7 @@
 {%- assign og_url = canonical_url -%}
 {%- assign og_type = 'website' -%}
 {%- assign og_description = page_description | default: shop.description | default: shop.name -%}
-
+{%- liquid assign og_title = page_title assign og_url = canonical_url assign og_type = 'site' assign og_description = page_description | padrão: loja.descrição | default: shop.name assign current_variant = product.selected_or_first_available_variant -%}
 {% comment %} Template specific overides {% endcomment %}
 {%- if template.name == 'product' -%}
   {%- assign og_title = product.title | strip_html -%}
