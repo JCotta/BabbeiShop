@@ -18,6 +18,8 @@
   <meta itemprop="name" content="{{ product.title }}">
   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
   <meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
+  <meta itemprop="productID" content="{{  sku  }}">
+
 <div class="main-content shop-page main-content-detail" 
      style="background-color:{{bg_product_page}};
             padding-top:{{pad_top_product_page}}px;
