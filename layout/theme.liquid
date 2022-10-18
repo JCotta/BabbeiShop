@@ -8,6 +8,7 @@
   <meta name="format-detection" content="telephone=no">
   <meta property="og:title" content="{{product.title | strip_html | escape}}">
   <meta property="og:description" content="{{product.description | strip_html | escape}}">
+  
   <meta property="og:url" content="{{canonical_url}}">
   <meta property="og:image" content="https:{{product | img_url: '720x720'}}">
   <meta property="product:brand" content="{{ product.vender }}">
@@ -17,6 +18,7 @@
   <meta property="product:price:currency" content="BRL"
   <meta property="product:retailer_item_id" content="{{product.id}}">
   <meta property="product:item_group_id" content="{{product.type}}">
+  
   <script type="application/ld+json">
 {
 	"@context":"https://schema.org",
