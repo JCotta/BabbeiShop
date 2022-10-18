@@ -6,6 +6,43 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no, user-scalable=no">
   <meta name="theme-color" content="{{ settings.color_button }}">
   <meta name="format-detection" content="telephone=no">
+  <meta property="og:title" content="{{product.title | strip_html | escape}}">
+  <meta property="og:description" content="{{product.description | strip_html | escape}}">
+  <meta property="og:url" content="{{canonical_url}}">
+  <meta property="og:image" content="https:{{product | img_url: '720x720'}}">
+  <meta property="product:brand" content="{{ product.vender }}">
+  <meta property="product:availability" content="in stock">
+  <meta property="product:condition" content="new"
+  <meta property="product:price:amount" content="{{ product.price | money_without_currency | stip_html | escape | remove: "," }}">
+  <meta property="product:price:currency" content="BRL"
+  <meta property="product:retailer_item_id" content="{{product.id}}">
+  <meta property="product:item_group_id" content="{{product.type}}">
+  
+  <script type="application/ld+json">
+  {
+  	"@context":"https://schema.org",
+  	"@type":"{{product.id}}",
+  	"name":"{{product.title | strip_html | escape }}",
+  	"description":{{product.description | strip_html | escape}}",
+  	"url":"{{canonical_url}}",
+  	"image":"https:{{product | img_url: '720x720'}}",
+  	"brand":"{{product.type}},
+  	"offers": [
+  	 {
+  		"@type": "Offer",
+  		"price": "{{ product.price | money_whithout_currency | strip_html | escape | remove: ',' }}",
+  		"priceCurrency": "BRL"
+  		"itemCondition": "https//schema.org/NewCondition",
+  		"availability": "https://schema.org/InStock
+   }
+  ],
+  "additionalProperty": [{
+  	"@type": "PropertyValue",
+  	"propertyID: "item_group_id",
+  	"value": "{{product.type}}"
+  }]
+  }
+  </script>
   {%- if canonical_url != blank  -%}<link rel="canonical" href="{{ canonical_url }}">{%- endif -%}
   <link rel="preconnect" href="//{{shop.domain}}" crossorigin>
   <link rel="preconnect" href="//{{shop.permanent_domain}}" crossorigin>
