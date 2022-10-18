@@ -91,7 +91,7 @@
 src="https://www.facebook.com/tr?id=603904294571327&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-  
+{%- liquid assign og_title = page_title assign og_url = canonical_url assign og_type = 'site' assign og_description = page_description | padrão: loja.descrição | default: shop.name assign current_variant = product.selected_or_first_available_variant -%} 
   
 </head>
 {%- assign admin_sp = request.design_mode -%}
