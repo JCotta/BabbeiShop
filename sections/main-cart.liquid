@@ -224,3 +224,25 @@
   "class": "spaced-section"
 }
 {% endschema %}
+<div id="foxscript">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</div>
+<script>
+    $(document).ready(function (){
+    $(document).on('change', "input.booster-quantity, input[name^='updates['], input[id^='updates_'], input[id^='Updates_']", function(e) {
+        e.preventDefault();
+         $('[data-fox=cart_form]').attr('action', '/cart');
+            $('[data-fox=cart_form]').submit();
+    });
+    $('[data-fox=cart_form]').submit(function(){
+        var discount=0;
+        $( '[data-integration-price-saved=1]' ).each(function( key, value ) {
+            if(parseInt(value.innerText.replace(/[^0-9]/g,'')) > discount)
+            {
+                discount = parseInt(value.innerText.replace(/[^0-9]/g,''))
+            }
+        });
+        $('#cart_form').append("<input type='hidden' name='value_discount' value='"+discount+"'>");
+    });
+  });
+      </script>
