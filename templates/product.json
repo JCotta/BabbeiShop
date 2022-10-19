@@ -88,7 +88,7 @@
             "qt_show_quantity": true,
             "qt_show_cart": true,
             "show_popup": false,
-            "qt_buy_it_now": true,
+            "qt_buy_it_now": false,
             "qt_show_compare": false,
             "qt_show_wishlist": true,
             "show_custom_color_btn": true,
