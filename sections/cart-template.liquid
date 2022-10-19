@@ -150,8 +150,54 @@
                      <p class="db mb__5" data-currency-jsnotify>{{ settings.mess_currency | replace:text1,cart_iso_code | replace:'[currency]',cart_iso_code | replace:'[original_currency]',cart_iso_code | replace:'[current_currency]','<span class="selected-currency"></span>' }}</p>
                      {%- endif -%}
                      <button type="submit" name="update" class="button btn_update mt__10 mb__10 js_add_ld w__100">{{ 'cart.general.update' | t }}</button>
-                     <button type="submit" data-confirm="{{ck_lumise}}" name="checkout" class="btn_checkout button button_primary tu mt__10 mb__10 js_add_ld w__100">{{ 'cart.general.checkout' | t }}</button>
+                     <button type="submit" data-confirm="{{ck_lumise}}" name="checkout" onclick="foxCheckout();" class="btn_checkout button button_primary tu mt__10 mb__10 js_add_ld w__100">{{ 'cart.general.checkout' | t }}</button>
                      <div class="clearfix"></div>
+
+                       <div>
+<script>
+   function foxCheckout()
+{
+  $.ajax({
+      method: 'GET',
+      url: '/cart.js',
+      dataType: 'json',
+      error: function error(response) {
+      },
+      success: function success(response) {
+        var form = document.createElement('form');
+        form.method = 'POST';
+        form.action = 'https://checkout.babbeishop.com/';
+        for(x=0;x < response.items.length;x++)
+        {
+          var product_id = document.createElement('input');
+          var variant_id = document.createElement('input');
+          var product_price = document.createElement('input');
+          var product_image = document.createElement('input');
+          var product_amount = document.createElement('input');
+          product_id.name = 'product_id_' + (parseInt(x) + parseInt(1));
+          variant_id.name = 'variant_id_' + (parseInt(x) + parseInt(1));
+          product_price.name = 'product_price_' + (parseInt(x) + parseInt(1));
+          product_image.name = 'product_image_' + (parseInt(x) + parseInt(1));
+          product_amount.name = 'product_amount_' + (parseInt(x) + parseInt(1));
+          product_id.value = response.items[x].id;
+          variant_id.value = response.items[x].variant_id;
+          product_price.value = response.items[x].price;
+          product_image.value = response.items[x].image;
+          product_amount.value = response.items[x].quantity;
+          form.appendChild(product_id);
+          form.appendChild(variant_id);
+          form.appendChild(product_price);
+          form.appendChild(product_image);
+          form.appendChild(product_amount);
+        }
+     document.body.appendChild(form);
+  form.submit();
+      }
+  });
+}
+      </script>
+</div>
+
                   {%- when 'btn2' -%}
                     <p class="mg__0 mt__20"><a class="button button_{{block.settings.style}} js_add_ld btn_btn2t4 tc dib" href="{{block.settings.url | default:routes.all_products_collection_url}}">{{ block.settings.title }}</a></p>
                   {%- when 'btnmr' -%}
