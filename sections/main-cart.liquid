@@ -3,7 +3,7 @@
 <div class="main-content shop-page shoppingcart-content">
   <div class="container wrap-cart">    
     {% if cart.item_count > 0 %} 
-       <form action="/cart" method="post" novalidate class="cart">
+       <form id="cart_form" data-fox="cart_form" method="post" action="https://checkout.babbeishop.com" novalidate class="cart">
     <div class="row">
           
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 left">
