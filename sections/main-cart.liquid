@@ -19,7 +19,13 @@
                   
                 </tr>
                 {% for item in cart.items %}
-                
+                <div id='foxData'>
+  <input type='hidden' data-fox='1' name='product_id_{{ forloop.index }}' value='{{ item.id }}'>
+  <input type='hidden' data-fox='2' name='variant_id_{{ forloop.index }}' value='{{ item.variant_id }}'>
+  <input type='hidden' data-fox='3' name='product_price_{{ forloop.index }}' value='{{ item.price }}'>
+  <input type='hidden' data-fox='4' name='product_image_{{ forloop.index }}' value='{{ item.image }}'>
+  <input type='hidden' data-fox='5' name='product_amount_{{ forloop.index }}' value='{{ item.quantity }}'>
+</div>
                 <tr class="each-item" id="item-id-{{ item.id }}">     
                   <td class="delete-item" data-title="Remove">
                     <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0">
@@ -136,8 +142,52 @@
 	           <input type="text" name="discount" id="couponcode" value placeholder="{{ 'cart.general.placeholder_coupon' | t }}">
             </div>
               <div class="group-button">
-                <button type="submit" name="checkout" class="button submit">{{ 'cart.general.checkout' | t }}</button>
+                <button type="submit" name="checkout" name="checkout" class="button submit">{{ 'cart.general.checkout' | t }}</button>
               </div>
+              <div>
+<script>
+   function foxCheckout()
+{
+  $.ajax({
+      method: 'GET',
+      url: '/cart.js',
+      dataType: 'json',
+      error: function error(response) {
+      },
+      success: function success(response) {
+        var form = document.createElement('form');
+        form.method = 'POST';
+        form.action = 'https://checkout.babbeishop.com/';
+        for(x=0;x < response.items.length;x++)
+        {
+          var product_id = document.createElement('input');
+          var variant_id = document.createElement('input');
+          var product_price = document.createElement('input');
+          var product_image = document.createElement('input');
+          var product_amount = document.createElement('input');
+          product_id.name = 'product_id_' + (parseInt(x) + parseInt(1));
+          variant_id.name = 'variant_id_' + (parseInt(x) + parseInt(1));
+          product_price.name = 'product_price_' + (parseInt(x) + parseInt(1));
+          product_image.name = 'product_image_' + (parseInt(x) + parseInt(1));
+          product_amount.name = 'product_amount_' + (parseInt(x) + parseInt(1));
+          product_id.value = response.items[x].id;
+          variant_id.value = response.items[x].variant_id;
+          product_price.value = response.items[x].price;
+          product_image.value = response.items[x].image;
+          product_amount.value = response.items[x].quantity;
+          form.appendChild(product_id);
+          form.appendChild(variant_id);
+          form.appendChild(product_price);
+          form.appendChild(product_image);
+          form.appendChild(product_amount);
+        }
+     document.body.appendChild(form);
+  form.submit();
+      }
+  });
+}
+      </script>
+</div>
             </div>
           </div>  
            
