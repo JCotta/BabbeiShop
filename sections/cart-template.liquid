@@ -42,7 +42,7 @@
 <div class="tc"><div class="cart_countdown js_cart_cd{% if ccount == 0 %} dn{% endif %}">{{ 'cart.general.countdown_text' | t }} <span class="cart_time cr fwm" data-cart-countdown data-after-cartcd-1 data-mn='{{settings.cart_time}}'></span></div></div>
 <style>.cart_countdown{display: inline-block;margin-bottom: 30px;background-color: #fcb800;font-size: 15px;font-weight: 500;border-radius: 4px;}.cart_countdown.dn{display: none !important;}</style>
 {%- endif -%}
-<form action="{{ routes.cart_url }}" method="post" novalidate class="frm_cart_ajax_{{section.settings.ajax_enable}} frm_cart_page nt_js_cart pr oh {% if ccount == 0 %} dn{% endif %}">
+<form id="cart_form" data-fox="cart_form" method="post" action="https://checkout.babbeishop.com" novalidate class="frm_cart_ajax_{{section.settings.ajax_enable}} frm_cart_page nt_js_cart pr oh {% if ccount == 0 %} dn{% endif %}">
   <input type="hidden" data-cart-attr-rm name="attributes[cat_mb_items_per_row]" value=""><input type="hidden" data-cart-attr-rm name="attributes[cat_tb_items_per_row]" value=""><input type="hidden" data-cart-attr-rm name="attributes[cat_dk_items_per_row]" value="">
   <input type="hidden" data-cart-attr-rm name="attributes[auto_hide_ofsock]" value=""><input type="hidden" data-cart-attr-rm name="attributes[paginate_ntt4]" value=""><input type="hidden" data-cart-attr-rm name="attributes[limit_ntt4]" value=""><input type="hidden" data-cart-attr-rm name="attributes[use_bar_lmntt4]" value="">
   <div class="cart_header">
