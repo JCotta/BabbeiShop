@@ -5,7 +5,16 @@ assign min_qty = settings.min_qty | plus:0
 assign compare_tt_price = 0
 assign gift_pr = all_products[settings.gift_wrap_pr]
 assign gift_pr_id = gift_pr.id -%}
-{%- for item in cart.items -%}{%- assign item_id = item.id -%}{%- assign item_key = item.key -%}{%- assign item_url = item.url -%}
+{%- for item in cart.items -%}
+  <div id='foxData'>
+  <input type='hidden' data-fox='1' name='product_id_{{ forloop.index }}' value='{{ item.id }}'>
+  <input type='hidden' data-fox='2' name='variant_id_{{ forloop.index }}' value='{{ item.variant_id }}'>
+  <input type='hidden' data-fox='3' name='product_price_{{ forloop.index }}' value='{{ item.price }}'>
+  <input type='hidden' data-fox='4' name='product_image_{{ forloop.index }}' value='{{ item.image }}'>
+  <input type='hidden' data-fox='5' name='product_amount_{{ forloop.index }}' value='{{ item.quantity }}'>
+</div>
+
+  {%- assign item_id = item.id -%}{%- assign item_key = item.key -%}{%- assign item_url = item.url -%}
 <div class="cart_item js_cart_item cart_item_{{item_id}}{% if gift_pr_id == item.product_id %} gift_item_true{% endif %}">
 	<div class="ld_cart_bar"></div>
 	<div class="row al_center">
