@@ -109,6 +109,7 @@
     "product_collection_show_options": false,
     "product_collection_enable_hover_image": false,
     "product_collection_show_button_add_to_cart": false,
+    "product_collection_show_button_add_to_wishlist": false,
     "product_collection_show_button_add_to_compare": false,
     "product_show_custom_options": true,
     "product_hide_options_without_availability_variants": true,
