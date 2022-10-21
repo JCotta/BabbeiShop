@@ -2026,7 +2026,7 @@
             "type": "simple",
             "settings": {
               "title": "Fale Conosco",
-              "url": "shopify:\/\/pages\/fale-conosco",
+              "url": "shopify:\/\/pages\/central-de-atendimento",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
