@@ -2001,18 +2001,27 @@
               "col": "4"
             }
           },
-          "3681d0ce-afc6-4344-b966-cfda71fb5b43": {
-            "type": "dropdown",
+          "f9dd5b9a-0dad-4301-9df8-64bcdede03be": {
+            "type": "mega",
             "settings": {
               "title": "Serviço ao Cliente",
               "url": "",
               "open_link": "_self",
-              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "#4ad295"
+              "lb_cl": "",
+              "pos_rel": false,
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
+          "d5338c19-dde0-4f10-8782-cfcd6b2ef999": {
+            "type": "link2",
+            "settings": {
+              "col": "4",
+              "menu": "ajuda-e-suporte"
             }
           },
           "d39c2c9b-4b7a-4a93-bc6b-af498ca89879": {
@@ -2047,7 +2056,8 @@
           "2edb69f1-946f-44fb-9516-b508ad1dbadc",
           "8edcaa36-bf62-43b1-b763-da218c38be3f",
           "c82034d8-9761-4095-be7b-cbc7c165b914",
-          "3681d0ce-afc6-4344-b966-cfda71fb5b43",
+          "f9dd5b9a-0dad-4301-9df8-64bcdede03be",
+          "d5338c19-dde0-4f10-8782-cfcd6b2ef999",
           "d39c2c9b-4b7a-4a93-bc6b-af498ca89879",
           "407f6f92-2819-4cb0-a735-a3caec3c4cd2"
         ],
