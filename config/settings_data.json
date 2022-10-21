@@ -1951,20 +1951,18 @@
       "header1": {
         "type": "header1",
         "blocks": {
-          "76f8d2a6-3e93-413a-97e2-c7db85f297c7": {
-            "type": "mega",
+          "a8cca052-43d3-4658-bd05-5c001f78b175": {
+            "type": "dropdown",
             "settings": {
               "title": "Inicio",
-              "url": "\/",
+              "url": "https:\/\/babbeishop.com\/",
               "open_link": "_self",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
-              "cl": "#222222",
+              "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "",
-              "pos_rel": true,
-              "wid": "cus",
-              "cus_wid": 500
+              "lb_cl": ""
             }
           },
           "2edb69f1-946f-44fb-9516-b508ad1dbadc": {
@@ -2052,7 +2050,7 @@
           }
         },
         "block_order": [
-          "76f8d2a6-3e93-413a-97e2-c7db85f297c7",
+          "a8cca052-43d3-4658-bd05-5c001f78b175",
           "2edb69f1-946f-44fb-9516-b508ad1dbadc",
           "8edcaa36-bf62-43b1-b763-da218c38be3f",
           "c82034d8-9761-4095-be7b-cbc7c165b914",
