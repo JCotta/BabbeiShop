@@ -4087,7 +4087,7 @@
           "1636099424951214c3-0": {
             "type": "banner_img",
             "settings": {
-              "image_sl": "shopify:\/\/shop_images\/2_de5bcfc4-bdc7-4106-8bb3-0de9b58f7255.png",
+              "image_sl": "shopify:\/\/shop_images\/1_83f084f4-fd1d-4e6a-a56f-76e68573326f.png",
               "col": "6",
               "ipad_col": "6",
               "link_img": "shopify:\/\/collections\/acessorios-para-refeicao",
@@ -4099,58 +4099,10 @@
               "mg_bottom": 20
             }
           },
-          "bd0dc69c-a97e-4fd9-85c1-13aba31e6dfb": {
-            "type": "subhd",
-            "settings": {
-              "title": "produtos em destaque",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 16,
-              "ls_text": 0,
-              "text_transform": "capitalize",
-              "mg_bottom": 15,
-              "hide": false,
-              "mobile_font_text": 14,
-              "mobile_mg_bottom": 10
-            }
-          },
-          "4ab44a43-ccdb-4217-9cdc-11eca84a0deb": {
-            "type": "hd",
-            "settings": {
-              "title": "Acessórios para a Refeição",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 24,
-              "lh_text": 24,
-              "ls_text": 0,
-              "text_transform": "none",
-              "mg_bottom": 30,
-              "hide": false,
-              "mobile_font_text": 20,
-              "mobile_mg_bottom": 15
-            }
-          },
-          "567cbb0a-a873-4e27-a118-f9bf0c3cc368": {
-            "type": "txt",
-            "settings": {
-              "title": "Produtos de Alta Qualidade",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 16,
-              "text_transform": "none",
-              "ls_text": 0,
-              "mg_bottom": 0,
-              "hide": false,
-              "mobile_font_text": 14,
-              "mobile_mg_bottom": 0
-            }
-          },
           "1636099424951214c3-1": {
             "type": "banner_img",
             "settings": {
-              "image_sl": "shopify:\/\/shop_images\/3_7714b854-05f9-43ca-9ffe-6e3019e3b4f1.png",
+              "image_sl": "shopify:\/\/shop_images\/2_1191c4e0-1a20-49e7-957c-803c06ee5686.png",
               "col": "6",
               "ipad_col": "6",
               "link_img": "shopify:\/\/collections\/frontpage",
@@ -4161,65 +4113,11 @@
               "txt_align": "left",
               "mg_bottom": 20
             }
-          },
-          "59a304c5-ad77-424e-8704-9f8a2fe38d02": {
-            "type": "subhd",
-            "settings": {
-              "title": "Produtos mais vendidos",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 16,
-              "ls_text": 0,
-              "text_transform": "capitalize",
-              "mg_bottom": 15,
-              "hide": false,
-              "mobile_font_text": 14,
-              "mobile_mg_bottom": 10
-            }
-          },
-          "6b16e4df-968b-42df-8d81-8e0162b1a62e": {
-            "type": "hd",
-            "settings": {
-              "title": "Confira os produtos<br> \nMais vendidos para da Babbei",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 24,
-              "lh_text": 24,
-              "ls_text": 0,
-              "text_transform": "capitalize",
-              "mg_bottom": 30,
-              "hide": false,
-              "mobile_font_text": 20,
-              "mobile_mg_bottom": 15
-            }
-          },
-          "60fe26e3-d533-4e13-ba00-31ffad47b1fe": {
-            "type": "txt",
-            "settings": {
-              "title": "Alguns produtos com Frete Grátis!",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 16,
-              "text_transform": "capitalize",
-              "ls_text": 0,
-              "mg_bottom": 0,
-              "hide": false,
-              "mobile_font_text": 14,
-              "mobile_mg_bottom": 0
-            }
           }
         },
         "block_order": [
           "1636099424951214c3-0",
-          "bd0dc69c-a97e-4fd9-85c1-13aba31e6dfb",
-          "4ab44a43-ccdb-4217-9cdc-11eca84a0deb",
-          "567cbb0a-a873-4e27-a118-f9bf0c3cc368",
-          "1636099424951214c3-1",
-          "59a304c5-ad77-424e-8704-9f8a2fe38d02",
-          "6b16e4df-968b-42df-8d81-8e0162b1a62e",
-          "60fe26e3-d533-4e13-ba00-31ffad47b1fe"
+          "1636099424951214c3-1"
         ],
         "settings": {
           "hidden": false,
