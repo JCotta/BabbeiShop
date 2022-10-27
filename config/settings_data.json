@@ -127,7 +127,7 @@
     "product_options_type_large_text": "",
     "collection_fullwidth": false,
     "layout_collection": "3",
-    "grid_list": "1",
+    "grid_list": "2",
     "pagination_limit": 12,
     "show_ajax_scroll": true,
     "use_eq_height": false,
