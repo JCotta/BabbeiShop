@@ -4639,11 +4639,11 @@
           "show_stock_bar": true,
           "status_bg": "#ebebeb",
           "sold_bg": "#cc1414",
-          "show_countdown": true,
-          "cd_txt": "Se apresse! A oferta termina em:",
-          "year_count_down": "2022",
-          "month_count_down": "10",
-          "day_count_down": "10",
+          "show_countdown": false,
+          "cd_txt": "",
+          "year_count_down": "",
+          "month_count_down": "",
+          "day_count_down": "",
           "use-slider": true,
           "slides-To-Scroll": 1,
           "visible": 6,
@@ -4906,102 +4906,6 @@
           "pd_mb": ""
         }
       },
-      "1636172590813ee09e": {
-        "type": "banner_style2",
-        "blocks": {
-          "1636172590813ee09e-0": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/8_38e34ce8-3922-4ab5-aaf6-0db39c03775b.png",
-              "link_img": "shopify:\/\/collections\/brinquedos",
-              "hidden_content": false,
-              "sub_title": "BRINQUEDOS",
-              "title": "Confira as novidades<br>Brinquedos e Ofertas imperdíveis",
-              "content": "",
-              "b_title": "",
-              "btn_link": "shopify:\/\/collections\/brinquedos",
-              "open_link": "_blank",
-              "h_position": "center",
-              "v_position": "top",
-              "txt_align": "center",
-              "mg_bottom": 25
-            }
-          },
-          "1636172590813ee09e-1": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/2_337c9cbd-d39f-4558-a1de-0a633f59e50e.png",
-              "link_img": "shopify:\/\/collections\/populares",
-              "hidden_content": false,
-              "sub_title": "",
-              "title": "Populares",
-              "content": "Confira os mais populares da Babbei!",
-              "b_title": "",
-              "btn_link": "shopify:\/\/collections\/populares",
-              "open_link": "_blank",
-              "h_position": "center",
-              "v_position": "top",
-              "txt_align": "center",
-              "mg_bottom": 29
-            }
-          },
-          "1636172590813ee09e-2": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/3_9ad90387-d6a5-4af8-9dd5-4adf03f09fee.png",
-              "link_img": "shopify:\/\/collections\/acessorios-para-refeicao",
-              "hidden_content": false,
-              "sub_title": "",
-              "title": "Acessórios para a Refeição",
-              "content": "",
-              "b_title": "",
-              "btn_link": "shopify:\/\/collections\/acessorios-para-refeicao",
-              "open_link": "_blank",
-              "h_position": "left",
-              "v_position": "top",
-              "txt_align": "left",
-              "mg_bottom": 25
-            }
-          },
-          "1636172590813ee09e-3": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/9_3ae7f76f-ddbf-4dbc-8005-2076ad6c2de8.png",
-              "link_img": "shopify:\/\/collections\/lancamentos",
-              "hidden_content": false,
-              "sub_title": "lançamentos",
-              "title": "Confira as Novidades <br> Produtos Inéditos",
-              "content": "",
-              "b_title": "",
-              "btn_link": "shopify:\/\/collections\/lancamentos",
-              "open_link": "_blank",
-              "h_position": "center",
-              "v_position": "top",
-              "txt_align": "center",
-              "mg_bottom": 25
-            }
-          }
-        },
-        "block_order": [
-          "1636172590813ee09e-0",
-          "1636172590813ee09e-1",
-          "1636172590813ee09e-2",
-          "1636172590813ee09e-3"
-        ],
-        "settings": {
-          "hidden": false,
-          "title": "SUPER OFERTAS",
-          "style": "default",
-          "bok_distance": "default",
-          "border_radius": "",
-          "layout": "container",
-          "cl_bg": "#ffffff",
-          "mg": "0,0,35px,0",
-          "pd": "",
-          "mg_mb": "0,0,15px,0",
-          "pd_mb": ""
-        }
-      },
       "163618766874106123": {
         "type": "collection-carousel-product",
         "settings": {
@@ -5171,7 +5075,6 @@
       "163609943117cec920",
       "1636706538b43eed42",
       "1636950129248c4f5e",
-      "1636172590813ee09e",
       "163618766874106123"
     ]
   },
