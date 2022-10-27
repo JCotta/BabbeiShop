@@ -3865,13 +3865,13 @@
       "16359250679cbcff32": {
         "type": "banner",
         "blocks": {
-          "16359250679cbcff32-0": {
+          "16359250679cbcff32-1": {
             "type": "banner_img",
             "settings": {
-              "image_sl": "shopify:\/\/shop_images\/1_bb68ec3e-11b8-4603-8b63-bdcc71a479c1.png",
+              "image_sl": "shopify:\/\/shop_images\/2_0142c62e-cf91-4b87-9a5c-b1292b5652ee.png",
               "col": "4",
               "ipad_col": "4",
-              "link_img": "shopify:\/\/collections\/brinquedos",
+              "link_img": "shopify:\/\/collections\/acessorios-de-sono",
               "open_link": "_blank",
               "hidden_content": false,
               "h_position": "left",
@@ -3880,13 +3880,13 @@
               "mg_bottom": 20
             }
           },
-          "16359250679cbcff32-1": {
+          "16359250679cbcff32-0": {
             "type": "banner_img",
             "settings": {
-              "image_sl": "shopify:\/\/shop_images\/2_0142c62e-cf91-4b87-9a5c-b1292b5652ee.png",
+              "image_sl": "shopify:\/\/shop_images\/1_bb68ec3e-11b8-4603-8b63-bdcc71a479c1.png",
               "col": "4",
               "ipad_col": "4",
-              "link_img": "shopify:\/\/collections\/acessorios-de-sono",
+              "link_img": "shopify:\/\/collections\/brinquedos",
               "open_link": "_blank",
               "hidden_content": false,
               "h_position": "left",
@@ -3912,8 +3912,8 @@
           }
         },
         "block_order": [
-          "16359250679cbcff32-0",
           "16359250679cbcff32-1",
+          "16359250679cbcff32-0",
           "b0132c8b-1752-46ac-9d8f-e712ee7a80cf"
         ],
         "settings": {
@@ -4476,7 +4476,7 @@
             "type": "img",
             "settings": {
               "cl_bg": "#263c97",
-              "image_sl": "shopify:\/\/shop_images\/6_8bd8bcd9-622f-497f-bf80-956f64f7fd97.png",
+              "image_sl": "shopify:\/\/shop_images\/6_eb58cf1a-2e90-4017-8716-66ce58588ed2.png",
               "link_img": "shopify:\/\/collections\/all",
               "open_link": "_blank",
               "caption_w": "2",
@@ -4492,7 +4492,7 @@
             "type": "img",
             "settings": {
               "cl_bg": "#263c97",
-              "image_sl": "shopify:\/\/shop_images\/Banner_SITE_-_BABBEI_2.png",
+              "image_sl": "shopify:\/\/shop_images\/4_c6c01f11-782d-4ce1-96fe-bbfaa64eb4d5.png",
               "link_img": "shopify:\/\/collections\/brinquedos",
               "open_link": "_blank",
               "caption_w": "2",
@@ -4508,7 +4508,7 @@
             "type": "img",
             "settings": {
               "cl_bg": "#263c97",
-              "image_sl": "shopify:\/\/shop_images\/5_c53d14e7-fe57-4374-8d45-d52b45cfa4c4.png",
+              "image_sl": "shopify:\/\/shop_images\/5_17d2b5d4-9b75-46f7-b23d-443bf6998c9b.png",
               "link_img": "shopify:\/\/collections",
               "open_link": "_blank",
               "caption_w": "2",
