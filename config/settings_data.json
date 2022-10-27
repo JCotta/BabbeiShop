@@ -1063,32 +1063,10 @@
               "show_counter": false,
               "menu": "cole-es"
             }
-          },
-          "collection-sidebar-1": {
-            "type": "filters",
-            "settings": {
-              "title": "Filtrar por cor",
-              "default_state": "open",
-              "type": "types",
-              "items": "Vermelho|Coral|Cobre|Laranja|Amarelo|Verde|Esmeralda|Azeitona|Caqui|Aqua|Cinza|Branco|Claro|azul|Roxo|Lilás|Violeta|Rosa|Ameixa|Areia Castanho|Cor-de-rosa|Verde claro|Preto|Tijolo de fogo|Prata| Marrom|Cinza|Salmão|Ouro|Trigo|Gainsboro|Cinza Escuro",
-              "multiple_filter_value": false
-            }
-          },
-          "41295cd3-c11a-42f8-bd4b-ae8ff7b9af6e": {
-            "type": "filters",
-            "settings": {
-              "title": "Filtrar por preço",
-              "default_state": "open",
-              "type": "tags",
-              "items": "R$25.00 - R$100.00|R100.00 - R$200.00|R$200.00 - R$300.00|R$300.00 - R$400.00|R$400.00 - R$500.00|R$500.00 - R$600.00",
-              "multiple_filter_value": false
-            }
           }
         },
         "block_order": [
-          "f06ffe84-907f-4bb2-8764-22ca9d5584e4",
-          "collection-sidebar-1",
-          "41295cd3-c11a-42f8-bd4b-ae8ff7b9af6e"
+          "f06ffe84-907f-4bb2-8764-22ca9d5584e4"
         ],
         "settings": {
           "title": "FILTROS"
