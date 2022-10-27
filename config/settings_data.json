@@ -4643,7 +4643,7 @@
           "cd_txt": "",
           "year_count_down": "",
           "month_count_down": "",
-          "day_count_down": "",
+          "day_count_down": "10",
           "use-slider": true,
           "slides-To-Scroll": 1,
           "visible": 6,
