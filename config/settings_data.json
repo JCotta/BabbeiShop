@@ -3902,7 +3902,7 @@
               "col": "4",
               "ipad_col": "4",
               "link_img": "shopify:\/\/collections\/brinquedos-educativos",
-              "open_link": "_blank",
+              "open_link": "_self",
               "hidden_content": false,
               "h_position": "left",
               "v_position": "middle",
