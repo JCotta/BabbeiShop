@@ -3868,7 +3868,7 @@
           "16359250679cbcff32-0": {
             "type": "banner_img",
             "settings": {
-              "image_sl": "shopify:\/\/shop_images\/Brinquedos_Educativos.png",
+              "image_sl": "shopify:\/\/shop_images\/1_1956793b-7208-4490-9e1d-be6102ec63c6.png",
               "col": "4",
               "ipad_col": "4",
               "link_img": "shopify:\/\/collections\/brinquedos",
@@ -3880,42 +3880,10 @@
               "mg_bottom": 20
             }
           },
-          "b0a61c39-8cce-463e-b4e6-cdcbe8149437": {
-            "type": "hd",
-            "settings": {
-              "title": "Brinquedos <br>",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 24,
-              "lh_text": 30,
-              "ls_text": 0,
-              "text_transform": "capitalize",
-              "mg_bottom": 25,
-              "hide": false,
-              "mobile_font_text": 19,
-              "mobile_mg_bottom": 15
-            }
-          },
-          "806bb815-f6c8-4cfe-971f-211ebd183b3e": {
-            "type": "txt",
-            "settings": {
-              "title": "Trabalhe o desenvolvimento: <br> Produtos com frete grátis",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 16,
-              "text_transform": "capitalize",
-              "ls_text": 0,
-              "mg_bottom": 0,
-              "hide": false,
-              "mobile_font_text": 14,
-              "mobile_mg_bottom": 0
-            }
-          },
           "16359250679cbcff32-1": {
             "type": "banner_img",
             "settings": {
-              "image_sl": "shopify:\/\/shop_images\/Brinquedos_Educativos_2.png",
+              "image_sl": "shopify:\/\/shop_images\/2_fac9bcc0-a967-411e-b2ac-06348fa2c9a3.png",
               "col": "4",
               "ipad_col": "4",
               "link_img": "shopify:\/\/collections\/acessorios-de-sono",
@@ -3927,42 +3895,10 @@
               "mg_bottom": 20
             }
           },
-          "d4055a4c-345c-456b-bb11-9f2c159b30f1": {
-            "type": "hd",
-            "settings": {
-              "title": "Acessórios <br>para sono",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 24,
-              "lh_text": 30,
-              "ls_text": 0,
-              "text_transform": "capitalize",
-              "mg_bottom": 25,
-              "hide": false,
-              "mobile_font_text": 19,
-              "mobile_mg_bottom": 15
-            }
-          },
-          "91150ddf-583f-4efd-9a6b-7192338cc58b": {
-            "type": "txt",
-            "settings": {
-              "title": "Tempo Limitado: <br> Produtos com frete grátis",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 16,
-              "text_transform": "none",
-              "ls_text": 0,
-              "mg_bottom": 0,
-              "hide": false,
-              "mobile_font_text": 14,
-              "mobile_mg_bottom": 0
-            }
-          },
           "b0132c8b-1752-46ac-9d8f-e712ee7a80cf": {
             "type": "banner_img",
             "settings": {
-              "image_sl": "shopify:\/\/shop_images\/Brinquedos_Educativos_3.png",
+              "image_sl": "shopify:\/\/shop_images\/3_7ca039d7-4b83-4f3b-afd9-6ac167cad4d9.png",
               "col": "4",
               "ipad_col": "4",
               "link_img": "shopify:\/\/collections\/brinquedos-educativos",
@@ -3973,50 +3909,12 @@
               "txt_align": "left",
               "mg_bottom": 20
             }
-          },
-          "31a13746-9e96-4159-8910-2a78610f49de": {
-            "type": "hd",
-            "settings": {
-              "title": "Brinquedos <br>\nEducativos",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 24,
-              "lh_text": 30,
-              "ls_text": 0,
-              "text_transform": "none",
-              "mg_bottom": 25,
-              "hide": false,
-              "mobile_font_text": 20,
-              "mobile_mg_bottom": 15
-            }
-          },
-          "7454a614-7def-4449-b9de-b1b47b114ab5": {
-            "type": "txt",
-            "settings": {
-              "title": "Todos produtos em promoção!",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 16,
-              "text_transform": "capitalize",
-              "ls_text": 0,
-              "mg_bottom": 0,
-              "hide": false,
-              "mobile_font_text": 14,
-              "mobile_mg_bottom": 0
-            }
           }
         },
         "block_order": [
           "16359250679cbcff32-0",
-          "b0a61c39-8cce-463e-b4e6-cdcbe8149437",
-          "806bb815-f6c8-4cfe-971f-211ebd183b3e",
           "16359250679cbcff32-1",
-          "d4055a4c-345c-456b-bb11-9f2c159b30f1",
-          "91150ddf-583f-4efd-9a6b-7192338cc58b",
-          "b0132c8b-1752-46ac-9d8f-e712ee7a80cf",
-          "31a13746-9e96-4159-8910-2a78610f49de",
-          "7454a614-7def-4449-b9de-b1b47b114ab5"
+          "b0132c8b-1752-46ac-9d8f-e712ee7a80cf"
         ],
         "settings": {
           "hidden": false,
