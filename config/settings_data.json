@@ -668,10 +668,10 @@
       "cross-sell-popup": {
         "type": "cross-sell-popup",
         "settings": {
-          "use_cross_sell_popup": true,
+          "use_cross_sell_popup": false,
           "collection_id": "accessories",
           "limit": 18,
-          "index": true,
+          "index": false,
           "product": false,
           "collection": false,
           "article": false,
@@ -4629,7 +4629,7 @@
               "h_position": "center",
               "v_position": "middle",
               "txt_align": "center",
-              "cl_overlay": "#111",
+              "cl_overlay": "#111111",
               "cl_opacity": 100,
               "ani_txt": "top_bottom"
             }
