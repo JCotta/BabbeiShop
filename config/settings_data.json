@@ -1068,7 +1068,7 @@
             "settings": {
               "title": "Filtrar por cor",
               "default_state": "open",
-              "type": "colors",
+              "type": "types",
               "items": "Vermelho|Coral|Cobre|Laranja|Amarelo|Verde|Esmeralda|Azeitona|Caqui|Aqua|Cinza|Branco|Claro|azul|Roxo|Lilás|Violeta|Rosa|Ameixa|Areia Castanho|Cor-de-rosa|Verde claro|Preto|Tijolo de fogo|Prata| Marrom|Cinza|Salmão|Ouro|Trigo|Gainsboro|Cinza Escuro",
               "multiple_filter_value": false
             }
