@@ -5056,7 +5056,7 @@
         "type": "custom-html",
         "settings": {
           "title": "",
-          "code": "<marquee direction=\"\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\">\n<p>                                <strong>APENAS HOJE!  <\/strong>  Alguns produtos com Frete Grátis para todo o Brasil!                                 <\/p>\n<p>                                Confira as Novidades \/ <strong>Toda Semana<\/strong> Algo Novo! \/ Código: amoababbei-2022                               <\/p>\n<p>                                !                                 <\/p>\n<p>                                Compras Acima de R$225,00 você ganha Frete Grátis para todo o Brasil!.                                 <\/p>\n<p>                                A cada compra acima de R$ 350 da Babbei Shop ganhe vale-presente <strong>15% de Desconto<\/strong> para a proxima compra.                                <\/p>\n<\/marquee>",
+          "code": "<marquee direction=\"\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\">\n<p>                                <strong>APENAS HOJE!  <\/strong> Produtos com Frete Grátis para todo o Brasil!                                 <\/p>\n<p>                                Confira as Novidades \/ <strong>Toda Semana<\/strong> Algo Novo!                                                              <\/p>\n<p>                                A cada compra acima de R$ 350 da Babbei Shop ganhe vale babbei15! <strong>15% de Desconto<\/strong> para a próxima compra.                                <\/p>\n<\/marquee>",
           "layout": "container",
           "cl_bg": "#25a799",
           "mg": "0,0,60px,0",
