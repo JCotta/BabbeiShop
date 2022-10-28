@@ -28,11 +28,6 @@
             "np_mg_bottom": 15
           }
         },
-        "6ff5677e-1d98-482d-bd86-4c67fe63a2af": {
-          "type": "show_reviews",
-          "settings": {
-          }
-        },
         "f1e09af0-0154-41e2-996f-755cdde44ea4": {
           "type": "show_price",
           "settings": {
@@ -40,6 +35,7 @@
         },
         "dcc993b3-cfd4-4442-9e80-f7b06f2b8956": {
           "type": "free_shipping",
+          "disabled": true,
           "settings": {
           }
         },
@@ -129,7 +125,6 @@
       },
       "block_order": [
         "ed5dec54-d995-4f88-87d3-102460e07067",
-        "6ff5677e-1d98-482d-bd86-4c67fe63a2af",
         "f1e09af0-0154-41e2-996f-755cdde44ea4",
         "dcc993b3-cfd4-4442-9e80-f7b06f2b8956",
         "e86bc4bc-e521-4949-9a36-1bb6b4b93de8",
