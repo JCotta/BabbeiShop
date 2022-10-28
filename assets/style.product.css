@@ -1388,14 +1388,14 @@
 .tags_product p a:hover{color:var(--color-hover);}
  .details-info .product-name {
    font-size: 24px;
-   color: #0068c9;
+   color: #888888;
    font-weight: 500;
    display: inline-block;
    margin: 0;
    line-height: 1;
 }
 .details-info .product-name a{
-color: #0068c9;
+color: #000;
     font-weight: 500;
 }
 .tags_product p a span:after{
@@ -1414,7 +1414,7 @@ color: #0068c9;
   	line-height:1;
   	margin-bottom:17px;
 }
-.details-info  p span,
+.details-info  p span{
 	color:#777777;
   	font-size:14px;
 }
@@ -1513,7 +1513,7 @@ color: #0068c9;
  .details-info .price {
     font-size: 24px;
     font-weight: 500;
-    color: var(--color-main);
+    color: #708090;
     display: block;
       margin:0;
     line-height: 1;
