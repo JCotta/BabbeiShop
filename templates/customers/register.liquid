@@ -1,113 +1,62 @@
-<!-- Created by Andy 06/08/2017 -->
-{% section 'breadcrumb' %}
-<div class="main-content shop-page login-page">
+<section>
   <div class="container">
-    
-    <div class="login-register-form pr_center content-form row">
-      <div class="note form-success hide" id="ResetSuccess" style="display:none;">
-        {{ 'customer.recover_password.success' | t }}
-      </div>
-     
-      <div class="cms-right col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        {% form 'create_customer', class:'register' %}
-        <div class="register-form">
-          <h4 class="main-title">{{ 'customer.register.title' | t }}</h4>
-          {%- if form.errors -%}
-              <ul> 
-                {%- for field in form.errors -%}
-                  <li>
-                    {%- if field == 'form' -%}
-                      {{ form.errors.messages[field] }}
-                    {%- else -%}
-                      <a href="#RegisterForm-{{ field }}">
-                        {{ form.errors.translated_fields[field] | capitalize }}
-                        {{ form.errors.messages[field] }}
-                      </a>
-                    {%- endif -%}
-                  </li>
-                {%- endfor -%}
-              </ul>
-            {%- endif -%} 
-            <div class="box-label">
-              <label>{{'customer.register.first_name' | t}} <span>*</span></label>              
-              <input
-                class="required input-info {% if form.errors contains 'first_name' %} input--error{% endif %}"     
-                type="text"
-                name="customer[first_name]"
-                id="RegisterForm-FirstName"
-                {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
-                autocomplete="given-name"
-                placeholder="{{ 'customer.register.first_name' | t }}"
-              >
-          </div>
-          <div class="box-label">
-          <label>{{'customer.register.last_name' |t}} <span>*</span></label>
-           <input
-              class="required input-info {% if form.errors contains 'last_name' %} input--error{% endif %}"    
-              type="text"
-              name="customer[last_name]"
-              id="RegisterForm-LastName"
-              {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
-              autocomplete="family-name"
-              placeholder="{{ 'customer.register.last_name' | t }}"
-            >
-          </div>
-          <div class="box-label">
-            <label>{{'customer.register.email' | t}} <span>*</span></label>          
-           <input
-                   class="required email input-info {% if form.errors contains 'email' %} input--error{% endif %}"
-                   type="email"
-                   name="customer[email]"
-                   id="RegisterForm-email"
-                   {% if form.email %} value="{{ form.email }}"{% endif %}
-                   spellcheck="false"
-                   autocapitalize="off"
-                   autocomplete="email"
-                   aria-required="true"
-                   {% if form.errors contains 'email' %}
-                   aria-invalid="true"
-                   aria-describedby="RegisterForm-email-error"
-                   {% endif %}
-                   placeholder="{{ 'customer.register.email' | t }}"
-                   >
-          
-          </div>
-          
-            <div class="box-label">
-              <label>{{'customer.register.password' | t}} <span>*</span></label>              
-              <input 
-                     placeholder="{{ 'customer.register.password' | t }}"
-                     type="password" 
-                     name="customer[password]" 
-                     id="CreatePassword" 
-                     class="required password input-info{% if form.errors contains 'password' %} input--error{% endif %}"
-                     >
-            </div>
-            <div class="box-label">
-              <label>{{ 'customer.reset_password.password_confirm' | t }} <span>*</span></label>              
-              <input 
-                     placeholder="{{ 'customer.reset_password.password_confirm' | t }}"	
-                     type="password" 
-                     value="" 
-                     name="customer[password_confirmation]" 
-                     id="PasswordConfirmation" 
-                     class="required password_confirm input-info {% if form.errors contains 'password_confirmation' %} input--error{% endif %}"
-                     >
-            </div>
-          
-          <div class="group-button">            
-            <input type="submit" class="button submit" value="{{ 'customer.register.submit' | t }}"/>
-          </div>
-          <p class="or"><span>{{'customer.register.or' | t}}</span></p>
-          <div class="register_submit">
-            <a href="/account/login" >
-              {{ 'customer.login.sign_in' | t }}
-            </a>
-          </div>
-        </div>
-        {% endform %}
-      </div>
-    </div>
-  </div>
+    {%- form 'create_customer', name: 'create', class: 'form form--main', id: 'create_customer' -%}
+      <header class="form__header">
+        <h1 class="form__title heading h1">{{ 'customer.register.create_account' | t }}</h1>
+        <p class="form__legend">{{ 'customer.register.description' | t }}</p>
+      </header>
 
-</div>
+      {%- if form.errors -%}
+        <div class="alert alert--error">
+          <ul class="alert__error-list">
+            {%- for field in form.errors -%}
+              {%- if field == 'form' -%}
+                <li class="alert__error-item">{{ form.errors.messages[field] }}</li>
+              {%- else -%}
+                <li class="alert__error-item"><strong>{{ form.errors.translated_fields[field] }}</strong> {{ form.errors.messages[field] }}</li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+      {%- endif -%}
+
+      {%- if request.locale.iso_code == 'ja' -%}
+        <div class="form__input-wrapper form__input-wrapper--labelled">
+          <input type="text" id="customer[last_name]" class="form__field form__field--text" name="customer[last_name]" required="required">
+          <label for="customer[last_name]" class="form__floating-label">{{ 'customer.register.last_name' | t }}</label>
+        </div>
+
+        <div class="form__input-wrapper form__input-wrapper--labelled">
+          <input type="text" id="customer[first_name]" class="form__field form__field--text" name="customer[first_name]" required="required">
+          <label for="customer[first_name]" class="form__floating-label">{{ 'customer.register.first_name' | t }}</label>
+        </div>
+      {%- else -%}
+        <div class="form__input-wrapper form__input-wrapper--labelled">
+          <input type="text" id="customer[first_name]" class="form__field form__field--text" name="customer[first_name]" required="required">
+          <label for="customer[first_name]" class="form__floating-label">{{ 'customer.register.first_name' | t }}</label>
+        </div>
+
+        <div class="form__input-wrapper form__input-wrapper--labelled">
+          <input type="text" id="customer[last_name]" class="form__field form__field--text" name="customer[last_name]" required="required">
+          <label for="customer[last_name]" class="form__floating-label">{{ 'customer.register.last_name' | t }}</label>
+        </div>
+      {%- endif -%}
+
+      <div class="form__input-wrapper form__input-wrapper--labelled">
+        <input type="email" id="customer[email]" class="form__field form__field--text" name="customer[email]" required="required">
+        <label for="customer[email]" class="form__floating-label">{{ 'customer.register.email' | t }}</label>
+      </div>
+
+      <div class="form__input-wrapper form__input-wrapper--labelled">
+        <input type="password" id="customer[password]" class="form__field form__field--text" name="customer[password]" required="required" autocomplete="new-password">
+        <label for="customer[password]" class="form__floating-label">{{ 'customer.register.password' | t }}</label>
+      </div>
+
+      <button type="submit" class="form__submit button button--primary button--full">{{ 'customer.register.submit' | t }}</button>
+
+      <div class="form__secondary-action">
+        <p>{{ 'customer.register.already_have_account' | t }} <a href="{{ routes.account_login_url }}" class="link link--accented">{{ 'customer.register.login' | t }}</a></p>
+      </div>
+    {%- endform -%}
+  </div>
+</section>
